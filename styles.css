@@ -95,6 +95,7 @@ h1 {
     -webkit-box-shadow: 0 5px 6px -6px #222;
   -moz-box-shadow: 0 5px 6px -6px #222;
   box-shadow: 0 5px 6px -6px #222;
+  padding-bottom: 40px;
 }
 
 
@@ -103,6 +104,38 @@ button[type="button"] {
     margin-left: 40px;
     padding: 10px 55px;
     border-radius: 5px;
-    background-color: #446A46; 
+    background-color: #596D48; 
     color: white
+}
+
+.inputWrapper label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.inputWrapper {
+    width: 275px;
+
+}
+
+.inputs {
+    padding-left: 40px;
+}
+
+form[action="lol"] {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    width: 0px;
+}
+
+.sign-up-footer {
+    padding-top: 40px;
+}
+
+input {
+    padding: 2px;
+    width: 200px;
 }
