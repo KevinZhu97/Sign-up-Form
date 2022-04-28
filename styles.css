@@ -89,6 +89,8 @@ h1 {
 
 .log-in {
     padding-left: 5px;
+    text-decoration: none;
+    color: #596D48;
 }
 
 .sign-up-inputs {
@@ -126,6 +128,7 @@ button[type="button"] {
 
 form[action="lol"] {
     display: grid;
+    grid-row-gap: 10px;
     grid-template-columns: auto auto;
     grid-column-gap: 0px;
     width: 0px;
@@ -138,4 +141,15 @@ form[action="lol"] {
 input {
     padding: 2px;
     width: 200px;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+input:invalid {
+    border-color: red;
 }
